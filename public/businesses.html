@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel='stylesheet' href='../styles-businesses.css'>
+    <link rel='stylesheet' href='/styles-businesses.css'>
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
     <title>InfluencerAds|Businesses</title>
     <script src='https://checkout.stripe.com/checkout.js' defer></script>
     <script>
         const stripePublicKey = 'pk_test_51H88knKigh6NXc2EMH2hxqTKuWEsi3ZpoRIcYYRanP1LYWDda9cpoe1mFB11EwdSY2hd7EHdHH1yMwnaYjxLXszP007nhyeTHh';
     </script>
-    <script src='../payment.js' defer></script>
+    <script src='/payment.js' defer></script>
 </head>
 
 <body>
     <div class='nav-bar'>
-        <img src='../photos/IA logo.png'>
-        <a href='/' id='home'>Home</a>
-        <a href='/influencer'>Influencers</a>
-        <a href='/businesses'>Businesses</a>
+        <img onclick='window.location.href="../index.html"' style='cursor: pointer' src='../photos/IA logo.png'>
+        <a href='/index.html' id='home' onclick="reloadPage()">Home</a>
+        <a href='/index.html'>Influencers</a>
+        <a href='/index.html'>Businesses</a>
         <!--<a href='/Donate'>Donate</a>-->
         <!--<a href='/team'>The Team</a>-->
     </div>
@@ -26,21 +26,21 @@
         <p>InfluencerAds will be a revolutionary marketing tool that allows you to create Influencer Marketing Campaigns within minutes that go out to thousands of people through our Influencer Database. Our InfluencerAds Platform is fully automated, so all you have to do is make the key decisions!</p>
     </div>
     <div>
-        <button type='button' id='make-payment-button-still'><b>Make a Payment to InfluencerAds</b></button>
+        <a href='#payment-div'><button type='button' id='make-payment-button-still'>Make a Payment to InfluencerAds</button></a>
     </div>
     <div class='sign-up-button'>
-        <button type='button' class='form-button' id='make-payment-button'>Make a Payment</button>
+        <a href='#payment-div'><button type='button' class='form-button' id='make-payment-button'>Make a Payment</button></a>
     </div>
     <div class='section-2'>
         <div>
-            <img src='../photos/placeholder.png'>
+            <img src='/Influencer .jpg'>
         </div>
         <div id='section-2-right'>
             <h2 class='section-2-right'>We think you will love InfluencerAds because:</h2>
-                <p>We will provide you with in depth analytics regarding the performance of your Campaigns.<br>
-                We automate every aspect of the Influencer Marketing process except the key decisions: allowing you to save hundreds of man hours!<br>
-                We allow for detailed targeting: helping ensure that you only with the Influencers that will complement your brand most!<br>
-                We donate profits to charities on your behalf out of our profits (from your Campaigns): helping you sculpture a better world!<br>
+                <p>We will provide you with in depth analytics regarding the performance of your Campaigns.<br><br>
+                We automate every aspect of the Influencer Marketing process except the key decisions: allowing you to save hundreds of man hours!<br><br>
+                We allow for detailed targeting: helping ensure that you only with the Influencers that will complement your brand most!<br><br>
+                We donate profits to charities on your behalf out of our profits (from your Campaigns): helping you sculpture a better world!<br><br>
                 As a result of huge shifts in Online Advertising Costs, we want to provide an alternative that truly offers Value for Money.</p>
         </div>
     </div>
