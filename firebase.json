@@ -1,12 +1,7 @@
 {
   "hosting": {
     "public": "public",
-    "site": "project-ia-245",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
+    "site": "project-ia-245"
   }
 }
 
