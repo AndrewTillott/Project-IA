@@ -1,0 +1,150 @@
+.nav-bar {
+    overflow: hidden;
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#home {
+    margin-right: 50px;
+}
+
+.nav-bar a {
+    font-size: 14px;
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 27px 25px;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    border-bottom: 2px solid white;
+    padding-bottom: 25px;
+}
+
+.nav-bar img {
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: 'Quicksand';
+    margin: 0;
+    background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.7)), url('photos/barbers.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.title {
+    margin-top: 73px;
+    text-align: center;
+    padding: 45px;
+    color: white;
+    font-size: 48px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.center {
+    color: white;
+    font-size: 45px;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.section-1 {
+    padding: 100px 55% 100px 15%;
+    color: white;
+}
+
+#first-section {
+    padding-bottom: 0;
+}
+
+.section-2 {
+    display: flex;
+    background-color: white;
+    padding: 0 15% 0 15%;
+}
+
+.section-2 div {
+    width: 50%;
+}
+
+.section-2 img {
+    width: 100%;
+    max-width: 349px;
+    max-height: 620px;
+}
+
+#section-2-right {
+    padding: 100px 0 100px 20%;
+}
+
+#make-payment-button {
+    text-align: center;
+    border: none;
+    padding: 20px;
+    margin: 20px 0px;
+    float: right;
+    margin: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    visibility: hidden;
+    background-color: yellow;
+  }
+  
+  #make-payment-button-still:hover {
+    background-color: rgb(128, 166, 183);
+    transition-duration: 0.3s;
+    cursor: pointer;
+  }
+
+  #make-payment-button-still {
+    text-align: center;
+    border: none;
+    padding: 20px 40px;
+    margin: 0 50px 50px 70%;
+  }
+
+  .section-3 {
+    padding: 30px 15% 30px 15%;
+    background-color: #333333;
+    color: white;
+  }
+
+  .input {
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: rgba(255,255,255,0.3);
+  }
+  
+  ::placeholder {
+      color: rgba(255,255,255,0.7);
+  }
+  
+  .form-button {
+      text-align: center;
+      border: none;
+      padding: 20px;
+      margin: 20px 0px;
+  }
+
+  .form-popup {
+    color: rgb(196, 14, 26);
+    margin-left: 20px;
+    transition: 10ms;
+    visibility: hidden;
+}
