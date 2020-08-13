@@ -16,10 +16,10 @@
         <p>The influencers then create the posts that the businesses have paid for. All of this happens instantly and automatically without any human involvement in the running of the site.</p>
      </div>
     <div class='nav-bar'>
-        <img src='../photos/IA logo.png'>
-        <a href='/' id='home'>Home</a>
-        <a href='/influencer'>Influencers</a>
-        <a href='/businesses'>Businesses</a>
+        <img onclick='window.location.href="../html/index.html"' style='cursor: pointer' src='../photos/IA logo.png'>
+        <a href='/index.html' id='home' onclick="reloadPage()">Home</a>
+        <a href='#influencer-section'>Influencers</a>
+        <a href='#div-2'>Businesses</a>
         <!--<a href='/Donate'>Donate</a>-->
         <!--<a href='/team'>The Team</a>-->
     </div>
@@ -27,18 +27,18 @@
         <button type='button' class='form-button' id='sign-up-button' onclick='topFunction()'>Sign Up</button>
     </div>
     <div class='section-2' id='div-2'>
-        <img src='../photos/IMG_0880 copy.PNG'>
+        <img src='../photos/IMG_0880 copy.PNG' id='#business-section'>
         <h1>How We Help Businesses</h1>
         <p>We allow you to reach thousands of people through the most natural and organic method possible: getting real people to talk about your products/services to their friends and family. Engagement rates are 85% higher with Influencers that have have 1,000 followers relative to 100,000.</p>
         <p>Traditional marketing methods don't have the same impact as Influencer Marketing: with 71% of UK Citizenssociateing advertisements with fake news and the average cost per click on traditional online marketing platforms landing at over £20 per coversion!</p>
-        <button type='button' onclick="window.location.href='../html/businesses.html'">Read More</button>
+        <button type='button' onclick="window.location.href='/businesses.html'">Read More</button>
     </div>
-    <div class='section-1'>
+    <div class='section-1' id='influencer-section'>
         <h1>How We Help Influencers</h1>
         <p>Aside from helping causes that matter to you as an Influencer, by donating our Campaign Profits to a Charity of your choice. We also make it possible for you to get the rewards that you deserve for the content that you create!</p>
         <p>You can get paid real money for the Posts that you make: and you get to choose the businesses that you work with.</p>
         <p>Become a Professional Instagram Model Now by submitting your details for when the Platform is finished.</p>
-        <button type='button' onclick="window.location.href='../html/businesses.html'">Read More</button>
+        <button type='button' onclick="window.location.href='/businesses.html'">Read More</button>
      </div>
     <div class='section-3' id='sign-up-div'>
         <h2>Sign Up</h2>
@@ -77,6 +77,7 @@
         }
     </script>
 
+    <script type='../app.js'>
     <script src='../functions-lib/form-validation-front-end.js'></script>
     <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-firestore.js"></script>

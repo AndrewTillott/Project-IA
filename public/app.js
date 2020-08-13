@@ -9,8 +9,8 @@ const app = express();
 const path = require('path');
 
 const db = require('./server.js');
-const dbAddition = require('./functions-lib/database-addition.js');
-const formValidtaion = require('./functions-lib/from-validation.js')
+const dbAddition = require('../functions-lib/database-addition.js');
+const formValidtaion = require('../functions-lib/from-validation.js')
 
 app.use("/", express.static(__dirname));
 
